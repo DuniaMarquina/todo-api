@@ -1,0 +1,43 @@
+# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+
+# Compilación
+dist/
+dist-test/
+build/
+*.tsbuildinfo
+
+# Base de datos
+database.sqlite
+database.sqlite-journal
+*.db
+*.sqlite
+*.sqlite3
+
+# Variables de entorno
+.env
+.env.local
+.env.test
+
+# Tests y cobertura
+coverage/
+.nyc_output/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
